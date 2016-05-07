@@ -10,6 +10,7 @@ influx:
     env_file: .env
     ports:
         - "8086:8086"
+        - "8083:8083"
     volumes:
         - /var/influxdb:/data
     restart: always
