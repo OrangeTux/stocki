@@ -1,0 +1,7 @@
+crawler:
+    image: node:5.1
+    env_file: ../.env
+    working_dir: /data
+    volumes:
+        - .:/data
+    command: npm start
