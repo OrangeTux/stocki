@@ -1,0 +1,16 @@
+{
+  "name": "stocki",
+  "version": "1.0.0",
+  "description": "Secret stock thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom de Boer <tom@tomdeboer.nl> (http://tomdeboer.nl)",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mysql": "^2.10.2",
+    "twitter": "^1.2.5"
+  }
+}
